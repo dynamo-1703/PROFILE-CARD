@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-family: roboto,arial; 
+}
+
+.profile-card{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -1px 5px 10px rgba(0, 0, 0, .15);
+}
+
+.upper-region{
+    background-color: #4070f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+}
+
+.profile-div{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    background-color: #4070f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 90px;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.name{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.PASSION{
+    font-size: 15px;
+    color: gray;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.social-media{
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.switch{
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #4070f4;
+    color: white;
+    transition: box-shadow 0.15s
+                opacity 0.15s;
+    cursor: pointer;
+}
+
+.switch:hover{
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, .15);
+}
+
+.switch:active{
+    opacity: 0.8;
+}
